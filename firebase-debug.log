@@ -1,0 +1,28 @@
+[debug] [2017-08-29T01:49:28.595Z] ----------------------------------------------------------------------
+[debug] [2017-08-29T01:49:28.598Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\wog890\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-29T01:49:28.598Z] CLI Version:   3.9.2
+[debug] [2017-08-29T01:49:28.598Z] Platform:      win32
+[debug] [2017-08-29T01:49:28.598Z] Node Version:  v6.9.1
+[debug] [2017-08-29T01:49:28.598Z] Time:          Mon Aug 28 2017 21:49:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-29T01:49:28.598Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-29T01:49:28.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-29T01:49:28.608Z] > authorizing via signed-in user
+[debug] [2017-08-29T01:49:28.610Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/wog-franklin-website  
+ Mon Aug 28 2017 21:49:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-29T01:49:29.109Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-29T01:49:29.111Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/wog-franklin-website/tokens  
+ Mon Aug 28 2017 21:49:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-29T01:49:30.444Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\wog890\My Documents\github\Wog-Franklin-Website'...
+[info] 
+[debug] [2017-08-29T01:49:30.449Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/wog-franklin-website  
+ Mon Aug 28 2017 21:49:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-29T01:49:30.775Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-29T01:49:30.776Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/215362581628/clients/_:getWebAppConfig  
+ Mon Aug 28 2017 21:49:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-29T01:49:31.196Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+
